@@ -1,9 +1,8 @@
 class QuestItem:
     def __init__(self):
-        raise NotImplementedError("Do not create raw questItems")
-
-    def __str__(self):
-        return self.name
+        
+        def __str__(self):
+            return self.name
 
 
 class JeffBlankey(QuestItem):
